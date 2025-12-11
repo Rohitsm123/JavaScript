@@ -12,7 +12,7 @@ const id=Symbol("123");
 const anotherId=Symbol("123");
 console.log(id===anotherId);//Symbol are unique
 
-const bigNumber=234746239943265213n;
+const bigNumber=234746239943265213n; 
 console.log(typeof bigNumber);//bigInt
 
 
@@ -36,3 +36,11 @@ const myFunction=function(){
     
  }
  myFunction();//function
+
+
+
+ //2 types of memory heap and stack
+
+ //stack(Primitive)
+ //heap(Non-Primitive/Reference)
+ 
