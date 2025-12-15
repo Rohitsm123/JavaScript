@@ -12,7 +12,7 @@ console.log(myarr2);
 
 myarr.push(6);//add 6 at the end of the array using push method
 myarr.push(7);//add 7 at the end of the array using push method
-// console.log(myarr);
+console.log(myarr);
 
 myarr.pop();
 console.log(myarr);//remove last element from the array using pop method
@@ -34,14 +34,18 @@ console.log(typeof newArray);
 //slice and splice
 
 console.log("A",myarr);
-const myn1=myarr.slice(1,3);//does not modify the original array
+const myn1=myarr.slice(1,3);//retturns a new array from index 1 to index 3 but does not modify the original array
 console.log(myn1);
+console.log(myarr);
+
 
 console.log("B",myarr);
-const myn2=myarr.splice(1,3);//modifies the original array
+const myn2=myarr.splice(1,3);//removes elements from index 1 to index 3 and modifies the original array
 console.log(myn2);
+console.log(myarr);
 
-console.log("C",myarr);
+
+
 
 
 
