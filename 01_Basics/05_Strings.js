@@ -27,7 +27,7 @@ console.log(anotherString);//can use negative indexing in slice
 
 const stringName="   Rohit   "
 console.log(stringName);
-console.log(stringName.trim());
+console.log(stringName.trim());//removes spaces from starting and ending
 
 const url="https://www.RohitPortfolio.com//Rohit%20sm"
 console.log(url);
@@ -38,10 +38,10 @@ console.log(url.replaceAll("//","-"));
 console.log(url.includes("Rohit"));
 console.log(url.includes("rohit"));
 
-console.log(gameName.split("-"));
+console.log(gameName.split("-"));//splits the string into array based on given separator
 console.log(gameName.split("-",2));
 
-console.log(gameName.at(1,4));
+console.log(gameName.at(1));//gives character at given index
 
 console.log(gameName.charCodeAt(3,7))//gives the unicode value of character at given index
 
