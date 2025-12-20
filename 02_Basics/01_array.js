@@ -32,6 +32,8 @@ console.log(typeof newArray);
 
 
 //slice and splice
+//slice=>does not modifies the original array only returns a new array
+//splice=>modifies the original array by removing elements
 
 console.log("A",myarr);
 const myn1=myarr.slice(1,3);//retturns a new array from index 1 to index 3 but does not modify the original array
