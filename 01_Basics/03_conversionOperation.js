@@ -29,7 +29,7 @@ let numberToString=String(someNumber)
 console.log(numberToString);
 console.log(typeof numberToString)
 
-// **************************Operation*****************************
+//**************************Operation*****************************
 
 let value=3
 let negativeValue=-value;
