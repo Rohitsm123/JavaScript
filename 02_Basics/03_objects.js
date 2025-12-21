@@ -23,7 +23,7 @@ console.log(person["name"]);//accessing using bracket notation
 console.log(person["lastLoginDays"]);
 console.log(person[mysym]);
 
-person.email="rohitsm125@gmail.com"
+person.email="rohitsm125@gmail.com" //to change the email
 Object.freeze(person)//doesnot modify it freezes the contents and stops modifying the contents
 person.email="rohitsm33@gmail.com"
 console.log(person);
@@ -37,7 +37,6 @@ console.log(person.greeting());
 
 person.greetingtwo=function(){
     console.log(`hello JS user this is ${this.name}`);//to use same object as a reference key we use a this keyword
-    
 }
 console.log(person.greetingtwo());
 console.log(person);
