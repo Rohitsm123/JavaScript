@@ -26,7 +26,7 @@ let score1=100
 let score2=200
 let score3=300
 
-const scores=Array.of(score1,score2,score3);//creates an array from the given values
+const scores=Array(score1,score2,score3);//creates an array from the given values
 console.log(scores);
 
 
