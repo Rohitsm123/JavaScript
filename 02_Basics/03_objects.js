@@ -24,7 +24,7 @@ console.log(person["lastLoginDays"]);
 console.log(person[mysym]);
 
 person.email="rohitsm125@gmail.com" //to change the email
-Object.freeze(person)//doesnot modify it freezes the contents and stops modifying the contents
+// Object.freeze(person)//doesnot modify it freezes the contents and stops modifying the contents
 person.email="rohitsm33@gmail.com"
 console.log(person);
 
