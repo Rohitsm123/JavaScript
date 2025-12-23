@@ -14,13 +14,13 @@ addTwoNumbers(3,4)//inside the brackets are Arguments
 
 
 function addTwoNumbers(number1,number2){
-//    const result=number1+number2
-//    return result
-//    console.log("Rohit");//it doesont execute after the return statement
+   const result=number1+number2
+   return result
+   console.log("Rohit");//it doesont execute after the return statement
    return number1+number2 //we can use direct return statement to exceute...
 }
 const result=addTwoNumbers(3,4)
-// console.log("Result:",result);
+console.log("Result:",result);
 
 
 function loginUserMessage(user){
@@ -32,7 +32,7 @@ return
         console.log("User Found");
     return `${user} just logged-in`
 }}
-// console.log(loginUserMessage("Rohit"));
+console.log(loginUserMessage("Rohit"));
 
 
 function calculateCartPrice(...num1){ //rest or spread operator based on the use case now it is rest operator
@@ -55,7 +55,7 @@ const user={
 function handleObject(anyObject){
     console.log(`Username is ${anyObject.username} and the subject is ${anyObject.subject}`)
 }
-// handleObject(user)
+handleObject(user)
 handleObject({
     username:"Rohit",
     subject:"JavaScript"
@@ -65,8 +65,8 @@ handleObject({
 //passing array in function
 const myArray=[10,20,30]
 function returnSecondValue(getArray){
-    return getArray[1]    
+    return getArray[2]    
 }
-// console.log(returnSecondValue(myArray));
+console.log(returnSecondValue(myArray));
 console.log(returnSecondValue([10,20,30]));//another way of getting array
 
