@@ -14,7 +14,7 @@ console.log(a);
 // console.log(c);
 
 
-//++++++++++++nested scope++++++++++++++
+// ++++++++++++nested scope++++++++++++++
 
 function one(){
     const username="Rohit"
