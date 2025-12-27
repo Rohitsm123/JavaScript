@@ -1,9 +1,9 @@
-//if statement
+//if statement Syntax
 
-//if(CSSConditionRule)
-// {
+// if (condition) {
+    
+// }
 
-// }//syntax
 
 // if (true){
     //if true then this block will be executed
