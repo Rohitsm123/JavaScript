@@ -33,5 +33,5 @@ const shoppingCart=[
     },
 ]
 
-const TotalAmount=shoppingCart.reduce(  (acc,item)=>acc+item.price,0 )
-console.log(`${TotalAmount} total Amount to pay`);
+const totalAmount=shoppingCart.reduce(  (acc,item)=>acc+item.price,0 )
+console.log(`${totalAmount} total Amount to pay`);
