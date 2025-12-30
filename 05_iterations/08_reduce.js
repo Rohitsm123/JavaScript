@@ -10,8 +10,8 @@ console.log(totalNum);
 
 
 //another way of writing reduce method
-const totalNum1=myNumber.reduce( (acc,curval)=> acc+curval,0 )//using arrow function
-console.log(totalNum1);
+const TotalNum1=myNumber.reduce( (acc,curval)=> acc+curval,0 )//using arrow function
+console.log(TotalNum1);
 
 
 const shoppingCart=[
