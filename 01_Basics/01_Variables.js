@@ -1,6 +1,6 @@
 const accountId=144553
 let accountEmail="rohitsmurdeshwar245@gmail.com"
-var accountPassword="12345"
+var accountPassword="12345" //not to use var keyword
 accountCity="Jaipur"
 let accountState;
 
