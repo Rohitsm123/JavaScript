@@ -16,7 +16,7 @@ console.log(3
 // primitive DataTypes
     //number =>2 to power 53
     //bigint =>Larger than 2 to power 53
-    //string => ""
+    //string => " "
     //boolean=> true/false
     //null =>standalone value
     //undefined=>
