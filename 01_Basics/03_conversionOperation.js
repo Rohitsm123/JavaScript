@@ -1,7 +1,10 @@
+//Conversion Operation:
+//Converting one DataTypes to another DataTypes.
+
 let score="33abc"
 
 console.log(typeof score);
-console.log(typeof (score));
+console.log(typeof (score));//we can check DataTypes of an variable by ussing typeof key.
 
 let stringToNumber=Number(score)
 console.log(typeof stringToNumber);
