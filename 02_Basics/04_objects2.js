@@ -9,7 +9,7 @@ console.log(tinderUser2);//non-singleton object
 
 const regularUser={
     email:"rohit@gmail.com",
-    fullName:{
+    fullName:{  //there is an object and inside there is an another object
         userFullName:{
             firstName:"Rohit",
             lastName:"Murdeshwar"
