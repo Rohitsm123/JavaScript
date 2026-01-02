@@ -22,7 +22,7 @@ console.log(myCreatedDate2.toLocaleString());//prints date and time in local for
 let myCreatedDate3=new Date("2025-01-14");//while creating date using string or YYYY-MM-DD format,months are started from 1
 console.log(myCreatedDate3.toLocaleString());
 
-let myCreatedDate4=new Date("01-14-2025")
+let myCreatedDate4=new Date("01-14-2025")//while creating date using string or YYYY-MM-DD format,months are started from 1
 console.log(myCreatedDate4.toLocaleString())
 
 let myTimeStamp= Date.now()
