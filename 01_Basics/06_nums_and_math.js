@@ -1,11 +1,11 @@
 const score=400
-console.log(score);
+console.log(score);//prints the score i.e 400
 
 
 const balance=new Number(100)
 console.log(balance);
 
-console.log(balance.toString().length);
+console.log(balance.toString().length);//tells the length of an Number
 
 console.log(balance.toFixed(2));//decimal points
 
