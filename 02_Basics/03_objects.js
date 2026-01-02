@@ -8,7 +8,7 @@ const mysym=Symbol("key1")//defining a symbol
 
 const person={
     name:"Rohit",
-    [mysym]:"mykey1",//syntax for symbol
+    [mysym]:"myValue",//syntax for symbol
     age:21,
     location:"karnataka",
     email:"rohitsm@gamil.com",
