@@ -1,9 +1,9 @@
 //array
 
-const myarr=[0,1,2,3,4,5];
+const myarr=[0,1,2,3,4,5];//declaring an array
 console.log(myarr);
 console.log(myarr[1]);//accessing array element at index 1
-console.log(typeof myarr);//array is object in js
+console.log(typeof myarr);//array is an object in js
 
 const myarr2=new Array(0,1,2,3,4,5)//another way to create an array
 console.log(myarr2);
