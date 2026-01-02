@@ -3,7 +3,7 @@ const course="JavaScript"
 
 console.log(name+course);//Dont use this syntax 
 
-console.log(`Hello this is ${name} and i am learning ${course}`);//use this syntax for more readablability
+console.log(`Hello this is ${name} and i am learning ${course}`);//use backtick syntax for more readablability
 
 const gameName=new String("GTA-V-Rohit");//Declaring a String Ussing Object Syntax
 
@@ -39,7 +39,7 @@ console.log(url.includes("Rohit"));
 console.log(url.includes("rohit"));
 
 console.log(gameName.split("-"));//splits the string into array based on given separator
-console.log(gameName.split("-",2));
+console.log(gameName.split("-",2));//splits the string into array based on specific separators
 
 console.log(gameName.at(1));//gives character at given index
 
