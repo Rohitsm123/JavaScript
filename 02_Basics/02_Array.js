@@ -9,7 +9,7 @@ console.log(marvel_heros.length);//5
 const all_heros=marvel_heros.concat(dc_heros,cartoon_heros);//merge two arrays
 console.log(all_heros);
 
-//spread operator
+//spread operator: this is the easy way to concat 2 or more array.
 const all_heros2=[...marvel_heros,...dc_heros,...cartoon_heros];
 console.log(all_heros2);
 
