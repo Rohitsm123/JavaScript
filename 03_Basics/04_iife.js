@@ -10,7 +10,6 @@
 
 //(Function_Defination)(Execution_call)==>()()
 
-
 (()=>{//this is the arrow function IIFE
     console.log(`IIFE using in arrow function`);
     //this is a simple arrow function IIFE without any parameters
