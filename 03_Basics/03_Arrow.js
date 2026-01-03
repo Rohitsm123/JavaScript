@@ -5,7 +5,6 @@ const user={
     welcomeMessage:function(){
         console.log(`${this.username} welcome to website`);//this is used to access the properties of the object within the current context
         console.log(this);//it will print the whole object
-        
     }
 }
 // console.log(user);
