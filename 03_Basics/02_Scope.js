@@ -43,7 +43,7 @@ if(username==="Rohit"){
 // console.log(username);//this will not execute due to it is outside the scope
 
 
-//++++++++++++++++Interesting++++++++++++++
+//++++++++++++++++Interesting Topic++++++++++++++
 
 console.log(addOne(5))//this will execute
 function addOne(num){ //this is the type of function is created
