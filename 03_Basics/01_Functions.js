@@ -5,7 +5,7 @@ function MyName(){
     console.log("i");
     console.log("t");   
 }
-MyName()//prints the function
+MyName()//prints the function by returning it
 
 function addTwoNumbers(number1,number2){//inside the brackets are Parameters
    console.log(number1+number2);
