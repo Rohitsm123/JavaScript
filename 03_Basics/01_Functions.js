@@ -5,12 +5,12 @@ function MyName(){
     console.log("i");
     console.log("t");   
 }
-// MyName()
+MyName()//prints the function
 
 function addTwoNumbers(number1,number2){//inside the brackets are Parameters
    console.log(number1+number2);
 }
-addTwoNumbers(3,4)//inside the brackets are Arguments
+addTwoNumbers(3,4)//inside the brackets are Arguments which we give input for the function to return its value
 
 
 function addTwoNumbers(number1,number2){
