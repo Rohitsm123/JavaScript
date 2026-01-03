@@ -48,7 +48,7 @@ console.log(calculateCartPrice1(200,300,400,500,600));
 
 
 //passing object in function
-const user={
+const user={ 
     username:"Rohit",
     subject:"JavaScript"
 }
