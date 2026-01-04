@@ -9,7 +9,6 @@ const arr=[1,2,3,4,5]
 for (const element of arr) {//arr is an iterable object where you declare that outside the loop
     console.log(element);//prints each element of array
     
-    
 }
 
 
@@ -39,7 +38,10 @@ for (const [key,value] of myMap) {//destructuring assignment to get key and valu
         
 }
     
-
+for(const [key] of myMap)//we must use destructor assignment to get keys.
+{
+    console.log(`The keys are :${key}`)
+}
 
 const myObj={
     name:"Rohit",
