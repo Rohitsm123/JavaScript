@@ -34,7 +34,7 @@ for(const index in arr){//for in loop to iterate over array indices
     
 }
 
-
+//***********************Interesting********************
 
 const myMap=new Map()
 myMap.set('IN','India')
