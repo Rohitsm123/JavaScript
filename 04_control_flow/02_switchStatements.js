@@ -24,7 +24,6 @@ switch (month) {//switch statement example
     case "April":
         console.log("April");
         break;
-
     default:
         console.log("Invalid month");
         break;
