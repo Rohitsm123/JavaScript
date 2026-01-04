@@ -8,7 +8,7 @@ else{
 }
 
 
-const userEmail1= ""
+const userEmail1= "" //if there is a space then it consider true.
 
 if(userEmail1){
     console.log("Got the User Email");
