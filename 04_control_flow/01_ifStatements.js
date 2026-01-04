@@ -36,7 +36,6 @@ if(score>100)
 
 
 const balance=1000
-
 if(balance>500)console.log(" balance"),console.log(" balance2");//unreadable code better to use blocks
 
 
