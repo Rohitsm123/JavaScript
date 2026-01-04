@@ -5,7 +5,10 @@ const values=coding.forEach((item)=>{
     return item
     
 } )
-console.log(values);
+// console.log(values);
+
+
+//filter method: if we are ussing filter method we need to use scope braces and the return keyword, if we didnot use anyone of this it will return undefined.
 
 const myNums=[1,2,3,4,5,6,7,8,9,10]
 
@@ -14,7 +17,7 @@ console.log(newNums2);
 
 
 let newNums=myNums.filter((num)=>{
-    num > 4
+   num > 4
 } )
 console.log(newNums);//it will print undefined because filter method expects a return value to filter the array
 //  but here we are not returning anything so it will return undefined
