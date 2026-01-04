@@ -1,13 +1,14 @@
 //for loops syntax
+
 // for (let index = 0; index < array.length; index++) {
 //     const element = array[index];
     
 // }
 
 
-for (let i = 0; i <= 10; i++) {
+for (let i = 0; i <= 10; i++) {//prints the  0-10 numbers
     const element = i;
-    if (element===5) {
+    if (element===5) { //if the loop enters to 5 then this condition will print
         console.log("5 is best number");  
     }
     console.log(element);
