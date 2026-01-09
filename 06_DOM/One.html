@@ -13,18 +13,21 @@
 </head>
 <body class="bg_black">
     <div>
-        <h1 id ="title" class="heading">DOM Learning</h1>
+        <h1 id ="title" class="heading">DOM Manipulation Learning <span style="display: none;">test text</span></h1>
+
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ad!</h2>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ad.</h2>
         <p>Lorem ipsum dolor sit amet.</p>
     </div>
     <script>
-        document.getElementById("title")
-        document.getElementById("title").id
-        document.getElementById("title").className
-        document.getElementById("title").getAttribute("id")
-        document.getElementById("title").getAttribute("class")
-        document.getElementById("title").setAttribute("class","test heading")
+        document.getElementById("title") //It gives the full id details.
+        document.getElementById("title").id //It gives only the ID Name.
+        document.getElementById("title").className //It gives only the Class Name.
+        document.getElementById("title").getAttribute("id") //It shows the Attribute of the Id.
+        document.getElementById("title").getAttribute("class") //It shows the Attribute of the Class.
+        document.getElementById("title").setAttribute("class","test heading") //It overwrites the name of the Class to test heading.
         
-        const stitle=document.getElementById("title")
+const stitle=document.getElementById("title")
 
 stitle.style.backgroundColor ="green"
 
@@ -32,6 +35,41 @@ stitle.style.padding="15px"
 
 stitle.style.borderRadius="20px"
 
+stitle.innerHTML
+//'DOM Manipulation Learning <span style="display: none;">test text</span>'
+stitle.innerText
+//'DOM Manipulation Learning'
+stitle.textContent
+//'DOM Manipulation Learning test text'
+
+ocument.querySelector("h2")
+
+document.querySelector("title")
+
+document.querySelector("#title")
+
+document.querySelector(".heading")
+
+document.querySelector('input[type="password"]')
+
+document.querySelector("ul")
+const list=document.querySelector("ul")
+
+list.querySelector("li")
+const colchangeToGreen=list.querySelector("li")
+
+colchangeToGreen.style.backgroundColor="green"
+
+colchangeToGreen.style.padding="10px"
+
+colchangeToGreen.style.borderRadius="20px"
+
     </script>
+    <input type="password" name="" id="">
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
 </body>
 </html>
