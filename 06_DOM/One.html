@@ -4,11 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM(Documnet Object Model) Learning</title>
+    <style>
+       .bg_black{
+            background-color: #1a1818;
+            color: white;
+        }
+    </style>
 </head>
-<body>
-    <div class="BG-Black">
-        <h1 class="heading">DOM Learning</h1>
+<body class="bg_black">
+    <div>
+        <h1 id ="title" class="heading">DOM Learning</h1>
         <p>Lorem ipsum dolor sit amet.</p>
     </div>
+    <script>
+        document.getElementById("title")
+        document.getElementById("title").id
+        document.getElementById("title").className
+        document.getElementById("title").getAttribute("id")
+        document.getElementById("title").getAttribute("class")
+        document.getElementById("title").setAttribute("class","test heading")
+        
+        const stitle=document.getElementById("title")
+
+stitle.style.backgroundColor ="green"
+
+stitle.style.padding="15px"
+
+stitle.style.borderRadius="20px"
+
+    </script>
 </body>
 </html>
