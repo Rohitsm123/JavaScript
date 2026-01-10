@@ -64,6 +64,21 @@ colchangeToGreen.style.padding="10px" //sets a padding to it.
 
 colchangeToGreen.style.borderRadius="20px" //sets a borderRadius to it.
 
+
+//Using querySelectorAll :
+document.querySelectorAll("li") //Using querySelectorAll, It is In the NodeList.
+
+const mylist=document.querySelectorAll("li") //Naming a Variable to it.
+
+mylist //returns the values.
+
+mylist.style.color="green"  //We cannot set properties to it because it is in the NodeList.
+
+mylist[0].style.color="green" //It now changes the color to green.
+
+mylist.forEach(function(l){
+    l.style.color="red"})  //By using forEach we can change the color of the lists.
+
     </script>
     <input type="password" name="" id="">
     <ul>
