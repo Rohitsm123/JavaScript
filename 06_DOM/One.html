@@ -79,12 +79,32 @@ mylist[0].style.color="green" //It now changes the color to green.
 mylist.forEach(function(l){
     l.style.color="red"})  //By using forEach we can change the color of the lists.
 
+
+//Using className :
+document.getElementsByClassName("list-item") //it returns the whole lists.
+
+const items=document.getElementsByClassName("list-item") //Storing it in a Variable.
+
+items //It returns the whole list.
+
+items.style.color="orange" //It returns Error Because it is in the HTMLCollection so we first converts it into an arrays.
+
+Array.from(items) //It converts into an arrays.
+
+const conArr=Array.from(items) //Storing it on a variable.
+
+conArr //Returns an list of arrays.
+
+conArr.forEach((Arr)=> //using forEach arrow function to change the color of the lists.
+ Arr.style.color="orange"   )
+
     </script>
     <input type="password" name="" id="">
     <ul>
-        <li>One</li>
-        <li>Two</li>
-        <li>Three</li>
+        <li class="list-item">One</li>
+        <li class="list-item">Two</li>
+        <li class="list-item">Three</li>
+        <li class="list-item">Four</li>
     </ul>
 </body>
 </html>
