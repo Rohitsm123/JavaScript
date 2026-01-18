@@ -22,14 +22,3 @@ console.log(undefined<=0);
 
 //=== Strict Equality Operator
 console.log("2"===2);
-
-
-
-
-
-
-
-
-
-
-
