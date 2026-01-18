@@ -46,6 +46,3 @@ console.log(newDate.toLocaleString('default',{
     year:"numeric",
     day:"numeric"
 })) //custom format of date using toLoacaleString method using object method
-
-
-
