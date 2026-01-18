@@ -86,8 +86,3 @@ console.log(x,y);
 x=2n
 y=x++
 console.log(x,y);
-
-
-
-
-
