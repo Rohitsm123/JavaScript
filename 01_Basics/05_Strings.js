@@ -52,15 +52,3 @@ console.log(gameName.concat());
 console.log(gameName.toLocaleUpperCase());
 
 console.log(gameName.isWellFormed());
-
-
-
-
-
-
-
-
-
-
-
-
