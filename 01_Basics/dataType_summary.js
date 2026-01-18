@@ -44,4 +44,3 @@ const myFunction=function(){//creating or declaring a functions
 
  //stack(Primitive)
  //heap(Non-Primitive/Reference)
- 
