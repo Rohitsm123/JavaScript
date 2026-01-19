@@ -1,7 +1,7 @@
 const score=400
 console.log(score);//prints the score i.e 400
 
-
+//Another way to declare a number
 const balance=new Number(100)
 console.log(balance);
 
