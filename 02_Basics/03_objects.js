@@ -35,7 +35,7 @@ console.log(person);
 console.log(person.greeting());
 
 person.greetingtwo=function(){
-    console.log(`hello JS user this is ${this.name}`);//to use same object as a reference key we use a this keyword
+    console.log(`hello this is ${this.name}`);//to use same object as a reference key we use a this keyword
 }
 console.log(person.greetingtwo());
 console.log(person);
