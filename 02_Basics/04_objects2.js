@@ -2,21 +2,21 @@ const tinderUser=new Object()//singleton object
 console.log(tinderUser);
 
 const tinderUser2={}
-tinderUser2.id="Rohit123"
-tinderUser2.name="Rohit"
+tinderUser2.id="Rohit123",
+tinderUser2.name="Rohit",
 tinderUser2.isLoggedIn=false
 console.log(tinderUser2);//non-singleton object
 
 const regularUser={
     email:"rohit@gmail.com",
-    fullName:{  //there is an object and inside there is an another object
+    //there is an object and inside there is an another object
         userFullName:{
             firstName:"Rohit",
             lastName:"Murdeshwar"
         }
+    
     }
-    }
- console.log(regularUser.fullName.userFullName.firstName);//accessing values from the multiple objects
+ console.log(regularUser.userFullName.firstName);//accessing values from the multiple objects
 
 const obj1={1:"a",2:"b"}
 const obj2={3:"c",4:"d"}
@@ -63,7 +63,6 @@ const course={
 }
 
 console.log(course.courseInstructor);//simple way of accessing the values
-
 const {courseInstructor:instructor}=course //we can change the values by using destructure method
 console.log(instructor);
 
