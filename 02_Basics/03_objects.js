@@ -3,7 +3,6 @@
 
 
 //object literals
-
 const mysym=Symbol("key1")//defining a symbol
 
 const person={
