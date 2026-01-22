@@ -73,4 +73,3 @@ if(loggenInFromGoogle || loggenInFromEmail){//logical or operator here it checks
     console.log("User Loggen-In");
     
 }
-
