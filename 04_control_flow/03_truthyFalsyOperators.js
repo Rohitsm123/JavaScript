@@ -62,7 +62,6 @@ if(userEmail2.length===0){//empty array
  
 }
 
-
 const emptyObj={}//empty object
 
 if(Object.keys(emptyObj).length===0){
