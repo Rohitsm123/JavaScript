@@ -95,5 +95,3 @@ age <=18 ? console.log("Minor Student") :console.log("Adult Student");
 
 const price=999;
 price <=99 ?console.log("Price is High"): console.log("Price is low");
-
-
