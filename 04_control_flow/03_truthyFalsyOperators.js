@@ -8,6 +8,8 @@ else{
 }
 
 
+
+
 const userEmail1= "" //if there is a space then it consider true.
 
 if(userEmail1){
@@ -93,3 +95,7 @@ age <=18 ? console.log("Minor Student") :console.log("Adult Student");
 
 const price=999;
 price <=99 ?console.log("Price is High"): console.log("Price is low");
+
+
+const age1=19
+age1>=19 ? console.log("adult"): console.log("Minor")
