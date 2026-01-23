@@ -67,6 +67,5 @@ for (let i = 1; i <= 20; i++) {
         console.log("Stoped At 5 Beacuse 5 is the best");
         continue 
     }
-  console.log(`Value of i is:${i}`);   
-    
+  console.log(`Value of i is:${i}`);     
 }
