@@ -61,5 +61,3 @@ myBooks=books.filter( (book)=>{// explicit return
 }  )
 
 console.log(myBooks);
-
-
