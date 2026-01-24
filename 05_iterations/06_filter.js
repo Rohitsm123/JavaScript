@@ -59,5 +59,4 @@ let myBooks=books.filter((book)=>book.genre==="History")// implicit return
 myBooks=books.filter( (book)=>{// explicit return
   return book.publish>=1995 && book.genre==="History"
 }  )
-
 console.log(myBooks);
