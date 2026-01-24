@@ -4,8 +4,10 @@ const myNums1=numbers.map( function(num){// here we are using regular function s
     return num+10  } )
 console.log(myNums1);
 
+
 const myNums=numbers.map( (num)=>num+10  )// here we are using implicit return type of arrow function so we dont need to use return keyword and scope braces
 console.log(myNums);
+
 
 const myNums2=numbers.map( (num)=>{//here we are using explicit return type of arrow function so we need to use return keyword and scope braces
     return num+10
