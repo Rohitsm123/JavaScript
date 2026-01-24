@@ -21,6 +21,5 @@ console.log(myNumber);
 const numValue=[]//empty array to store the values
 numbers.forEach( (num)=>{//using forEach loop to achieve the same functionality as map method
    numValue.push(num+10)//pushing the values to the empty array
-
 } )
 console.log(numValue);
