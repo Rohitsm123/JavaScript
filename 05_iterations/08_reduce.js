@@ -34,6 +34,7 @@ const shoppingCart=[
     },
 ]
 
+
 const totalAmount=shoppingCart.reduce(  (acc,item)=>acc+item.price,0 )//this is the one way of calculating total amount in the cart by ussing arrow function.
 console.log(`${totalAmount} total Amount to pay`);
 
