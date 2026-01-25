@@ -41,7 +41,6 @@ myNums.forEach( (nums) =>{
 console.log(mynewNums);//it will print [5,6,7,8,9,10] because we are pushing the values which are greater than 4 to the empty array
 
 
-
 const books = [
     { title: 'Book One', genre: 'Fiction', publish: 1981, edition: 2004 },
     { title: 'Book Two', genre: 'Non-Fiction', publish: 1992, edition: 2008 },
