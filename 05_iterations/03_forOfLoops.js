@@ -11,9 +11,7 @@ for (const element of arr) {//arr is an iterable object where you declare that o
     
 }
 
-
 const str="Hello World"
-
 for (const values of str) {//str is an iterable object where you declare that outside the loop
     console.log(`The Characters are:${values}`);//prints each character of string
     
