@@ -26,7 +26,6 @@ while(j<myArray.length){
     // code block to be executed
 // } while (condition);
 
-
 let num=2 //declaring a variable
 do {     //it executes first do block then checks the condition in while
     console.log(`The number is:${num}`);
