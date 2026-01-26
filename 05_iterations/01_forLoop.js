@@ -38,7 +38,6 @@ for (let i = 1; i <= 10; i++) {
 // You don’t wash one cloth from each basket randomly.
 
 
-
 const myArray=['batman','superman','flash','wonder']
 console.log(myArray.length);
 
