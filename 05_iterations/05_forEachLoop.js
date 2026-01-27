@@ -4,6 +4,7 @@
     
 // } );
 
+
 const coding=["JavaScript","Python","C++","Java","Ruby"]
 
 coding.forEach( function (item){ //here items are inside the array
@@ -46,10 +47,12 @@ const myCoding=[
     },
 ]//array of objects
 
+
 myCoding.forEach(function(item){//we can access each object of array using forEach loop
     console.log(item);
     
 })
+
 
 myCoding.forEach(function(item){//we can access each object of array using forEach loop
     console.log(item.name);
