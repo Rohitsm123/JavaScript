@@ -29,7 +29,6 @@ let newNums1=myNums.filter((num)=>{// if we are using filter method and we are u
 console.log(newNums1);//it will print [5,6,7,8,9,10] because we are returning the value which is greater than 4
 
 
-
 //using forEach to achieve the same functionality as filter method
 
 const mynewNums=[]//empty aray to store the values greater than 4
