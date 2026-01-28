@@ -48,7 +48,6 @@ for (let index = 0; index < myArray.length; index++) {
 
 
 // keywords for For loop : break & continue
-
 //1.break: It is used to terminate the loop entirely when a certain condition is met.
 for (let i = 1; i <= 20; i++) {
     if(i===5){
