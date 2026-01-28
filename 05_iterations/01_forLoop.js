@@ -34,7 +34,6 @@ for (let i = 1; i <= 10; i++) {
 
 // You finish all clothes in basket 1
 // Only then you move to basket 2
-
 // You don’t wash one cloth from each basket randomly.
 
 
