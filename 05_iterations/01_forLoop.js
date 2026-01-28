@@ -28,12 +28,14 @@ for (let i = 1; i <= 10; i++) {
 //Real-world analogy (simple)
 // 🧺 Washing clothes
 
-// Outer loop = each basket
+// Outer loop = each basket.
 
-// Inner loop = washing every cloth in that basket
+// Inner loop = washing every cloth in that basket.
 
 // You finish all clothes in basket 1
+
 // Only then you move to basket 2
+
 // You don’t wash one cloth from each basket randomly.
 
 
@@ -48,6 +50,7 @@ for (let index = 0; index < myArray.length; index++) {
 
 
 // keywords for For loop : break & continue
+
 //1.break: It is used to terminate the loop entirely when a certain condition is met.
 for (let i = 1; i <= 20; i++) {
     if(i===5){
