@@ -8,7 +8,7 @@ const values=coding.forEach((item)=>{
 // console.log(values);
 
 
-//filter method: if we are ussing filter method we need to use scope braces and the return keyword, if we didnot use anyone of this it will return undefined.
+// filter method: if we are ussing filter method we need to use scope braces and the return keyword, if we didnot use anyone of this it will return undefined.
 
 const myNums=[1,2,3,4,5,6,7,8,9,10]
 
@@ -29,8 +29,7 @@ let newNums1=myNums.filter((num)=>{// if we are using filter method and we are u
 console.log(newNums1);//it will print [5,6,7,8,9,10] because we are returning the value which is greater than 4
 
 
-//using forEach to achieve the same functionality as filter method
-
+//using forEach to achieve the same functionality as filter method.
 const mynewNums=[]//empty aray to store the values greater than 4
 myNums.forEach( (nums) =>{
     if(nums > 4){
