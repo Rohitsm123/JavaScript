@@ -19,6 +19,16 @@ for (const key in myObj) {//for in loop to iterate over object properties
 }
 
 
+function myName(){//for in loop to iterate over functions
+    console.log("Rohit")
+}
+myName()
+
+for(const name in myName()){
+    console.log(name)
+}
+
+
 const proLanguages=['JavaScript','Python','C++','Java','Ruby']
 
 for (const key in proLanguages) {//for in loop to iterate over array indices
