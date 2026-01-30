@@ -58,12 +58,18 @@ else {
 
 
 const userLoggedIn=true;
-const debitCard=true;
+const debitCard=false;
 
 if(userLoggedIn && debitCard){//logical and operator here it checks both conditions and if both are true then only block will be executed
     console.log("allow to purchase");
     
 }
+else
+{
+    console.log("Not Allowed to purchase");
+    
+}
+
 
 
 const loggenInFromGoogle=false;
