@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body style="background-color: #12023d; color: white;">
+    
+    <ul class="languages">
+        <li>JavaScript</li>
+    </ul>
+
+</body>
+<script>
+//This is the simple way to add list item.
+    function addLanguage(lang){
+       const newList = document.createElement("li");
+        newList.innerHTML=lang;
+        document.querySelector(".languages").appendChild(newList);
+
+    }
+    addLanguage("Python");
+    addLanguage("C++");
+
+//This is the Optimized way to add list item using text node.And Use this approach when you are adding dynamic data to the list to avoid XSS attack.
+    function addOptilang(lang){
+        const newList=document.createElement("li");
+        newList.appendChild(document.createTextNode(lang));
+        document.querySelector(".languages").appendChild(newList);
+
+    }
+    addOptilang("Java");
+    addOptilang("Ruby");
+
+
+    //Edit
+    //this is the one way to edit the list item.
+  const seclang= document.querySelectorAll("li");
+  seclang[1].innerHTML="Python3";
+
+  //this is the another way
+ const secLang= document.querySelector("li:nth-child(2)");
+ secLang.innerHTML="Python3.9";
+
+ //This is the replace with method to replace the element.
+ const newList=document.createElement("li");
+ newList.innerHTML="Python";
+ secLang.replaceWith(newList);
+
+//This is the outerHTML method to replace the entire element.
+const firstChild=document.querySelector("li:first-child");
+firstChild.outerHTML="<li>JS</li>";//this will replace the entire element.
+
+
+//remove
+lastLang=document.querySelector("li:last-child");
+lastLang.remove();//this will remove the last element.
+
+</script>
+</html>
