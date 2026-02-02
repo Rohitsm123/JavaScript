@@ -63,3 +63,14 @@ form.addEventListener('submit', function (event) {
 ```
 
 ## Project 3 :
+
+```
+const clock = document.getElementById('clock');
+
+setInterval(function () {
+  //Use this to get a Intervals or Time.
+  let date = new Date();
+  // console.log(date.toLocaleTimeString()); //This will return in the console.
+  clock.innerHTML = date.toLocaleTimeString(); //This will print in the browser.
+}, 1000); //1000 is the milisecond, means 1 seconds = 1000 miliseconds
+```
