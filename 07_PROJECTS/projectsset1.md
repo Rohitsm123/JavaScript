@@ -34,3 +34,32 @@ buttons.forEach(function (button) {
 });
 
 ```
+
+## Project 2 :
+
+```
+const form = document.querySelector('form');
+//this usecase will give you empty value.
+// const height = parseInt(document.querySelector('#height').value);
+
+form.addEventListener('submit', function (event) {
+  event.preventDefault(); //the reason behind using this is "It Doesn't let the browser to run or submit the form it handle everything with JavaScript"
+  const height = parseInt(document.querySelector('#height').value);
+  const weight = parseInt(document.querySelector('#weight').value);
+  const results = document.querySelector('#results');
+
+  if (height === '' || height < 0 || isNaN(height)) {
+    results.innerHTML = `Please Give a Valid Height ${height}`;
+  } else if (weight === '' || weight < 0 || isNaN(weight)) {
+    results.innerHTML = `Please Give a Valid Weight ${weight}`;
+  } else {
+    const bmi = (weight / ((height * height) / 10000)).toFixed(2);
+    //show the result
+
+    results.innerHTML = `<span>${bmi}</span>`;
+  }
+});
+
+```
+
+## Project 3 :
