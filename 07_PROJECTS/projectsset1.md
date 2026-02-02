@@ -6,7 +6,7 @@
 # Solutions Code
 
 ## Project 1 :
-```
+```javascript
 const buttons = document.querySelectorAll('.button');
 const body = document.querySelector('body');
 
@@ -37,7 +37,7 @@ buttons.forEach(function (button) {
 
 ## Project 2 :
 
-```
+```javascript
 const form = document.querySelector('form');
 //this usecase will give you empty value.
 // const height = parseInt(document.querySelector('#height').value);
@@ -64,7 +64,7 @@ form.addEventListener('submit', function (event) {
 
 ## Project 3 :
 
-```
+```javascript
 const clock = document.getElementById('clock');
 
 setInterval(function () {
