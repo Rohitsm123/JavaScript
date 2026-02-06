@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="../styles.css" />
     <title>Your Local Time</title>
     <style>
+
       body {
         background-color: #212121;
         color: #fff;
@@ -25,6 +26,7 @@
         margin-top: 10px;
         border-radius: 10px;
       }
+
     </style>
   </head>
   <body>
@@ -37,14 +39,15 @@
       <div id="clock"></div>
     </div>
     <script>
-        const clock = document.getElementById('clock');
 
+        const clock = document.getElementById('clock');
 setInterval(function () {
   //Use this to get a Intervals or Time.
   let date = new Date();
   // console.log(date.toLocaleTimeString()); //This will return in the console.
   clock.innerHTML = date.toLocaleTimeString(); //This will print in the browser.
 }, 1000); //1000 is the milisecond, means 1 seconds = 1000 miliseconds
+
     </script>
   </body>
 </html>
