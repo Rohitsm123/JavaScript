@@ -3,7 +3,7 @@
 ## Project Links
 [Click Here](https://stackblitz.com/edit/dom-project-chaiaurcode?file=index.html)
 
-# Solution Code :
+# Solution Code 
 
 ## Project 1 :
 ```javascript
